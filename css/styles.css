@@ -1,8 +1,41 @@
 h1{
   text-align:center;
 }
+
 #player-2{
  margin-left:300px;
  margin-bottom: 200px;
  margin-top: -70px;
+}
+#start{
+ margin-bottom: 200px;
+ margin-top: -200px;
+ background-color:darkolivegreen;
+}
+#new-game{
+  background-color:darkolivegreen;
+  margin-bottom: 200px;
+  margin-top: -150px;
+}
+h3{
+  margin-bottom: 200px;
+  margin-top: -150px;
+}
+#player1-roll{
+  margin-bottom: 200px;
+  margin-top: -180px;
+  background-color:darkolivegreen;
+}
+#player1-hold{
+  margin-bottom: 200px;
+  margin-top: -180px;
+  background-color:darkolivegreen;
+}
+h3{
+  margin-bottom: 200px;
+  margin-top: -180px;
+}
+p{
+  margin-bottom: 200px;
+  margin-top: -180px;
 }
