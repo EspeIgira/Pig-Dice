@@ -3,7 +3,7 @@ h1{
 }
 
 #player-2{
- margin-left:300px;
+ margin-left:550px;
  margin-bottom: 200px;
  margin-top: -70px;
 }
@@ -38,4 +38,20 @@ h3{
 p{
   margin-bottom: 200px;
   margin-top: -180px;
+ 
+}
+.player2{
+  margin-right:200px;
+  margin-bottom: 200px;
+  margin-top: -190px;
+}
+#player2-roll{
+  margin-bottom: 200px;
+  margin-top: -180px;
+  background-color:darkolivegreen;
+}
+#player2-hold{
+  margin-bottom: 200px;
+  margin-top: -180px;
+  background-color:darkolivegreen;
 }
