@@ -12,6 +12,9 @@ h1{
  margin-top: -200px;
  background-color:darkolivegreen;
 }
+.player-console {
+  display: none;
+}
 #new-game{
   background-color:darkolivegreen;
   margin-bottom: 200px;
