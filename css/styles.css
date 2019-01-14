@@ -1,60 +1,16 @@
-h1{
-  text-align:center;
+html{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bB6tyNLzVmp3eNUOQE-A2kC5cp1jA5kkaG5_8e_9gMWppnju);
+  background-repeat:no-repeat;
 }
-
-#player-2{
- margin-left:550px;
- margin-bottom: 200px;
- margin-top: -70px;
+.image{
+  text-align: center;
 }
-#start{
- margin-bottom: 200px;
- margin-top: -200px;
- background-color:darkolivegreen;
+legend{
+  text-align: center;
+  background-color:lightblue;
 }
-.player-console {
-  display: none;
-}
-#new-game{
-  background-color:darkolivegreen;
-  margin-bottom: 200px;
-  margin-top: -150px;
-}
-h3{
-  margin-bottom: 200px;
-  margin-top: -150px;
-}
-#player1-roll{
-  margin-bottom: 200px;
-  margin-top: -180px;
-  background-color:darkolivegreen;
-}
-#player1-hold{
-  margin-bottom: 200px;
-  margin-top: -180px;
-  background-color:darkolivegreen;
-}
-h3{
-  margin-bottom: 200px;
-  margin-top: -180px;
-}
-p{
-  margin-bottom: 200px;
-  margin-top: -180px;
- 
-}
-.player2{
-  margin-right:200px;
-  margin-bottom: 200px;
-  margin-top: -190px;
-}
-#player2-roll{
-  margin-bottom: 200px;
-  margin-top: -180px;
-  background-color:darkolivegreen;
-}
-#player2-hold{
-  margin-bottom: 200px;
-  margin-top: -180px;
-  background-color:darkolivegreen;
+#player-name-form{
+  margin-left:600px;
+  margin-bottom:200px;
+  margin-top:-400px;
 }

@@ -11,48 +11,40 @@
   <script src="./js/scripts.js"></script>
 </head>
 <body>
-  <div class="start-menu container">
-    <div class="jumbotron">
-      <h1>Pig Dice Game</h1>
-    </div>
-    <form id="player-1">
-      <div class="form-group">
-        <label for="player1Name">Player 1 Name:
-        <input required class="player1Name form-control" type="text"></label>
-      </div>
-    </form>
-    <form id="player-2">
-      <div class="form-group">
-        <label for="player2Name">Player 2 Name:
-        <input required class="player1Name form-control" type="text"></label>
-      </div> 
-    </form>
-    <button id="start" class="btn-info btn">Start</button>
-</div>
-
-<div class="player-console container">
-  <button id="new-game" class="btn-success btn">New Game</button>
-
-  <div class = "row">
-    <div class="col-md-6">
-      <h3>Player 1: <span id = "player1Name"><span></h3>
-      <button id="player1-roll" class="btn-success btn">Roll</button>
-      <button id="player1-hold" class="btn-success btn">Hold</button>
-      <h3>Dice Roll: <span id="die-roll-1"></span></h3>
-      <p>Round Total: <span id="round-total-1"></span></p>
-      <p>Total Score: <span id="total-score-1"></span></p>
-    </div>
-
-    <div class="col-md-6">
-      <h3 class="player2">Player 2: <span id = "player2Name"><span></h3>
-      <button id="player2-roll" class="btn-success btn">Roll</button>  
-      <button id="player2-hold" class="btn-success btn">Hold</button>
-      <h3>Dice Roll: <span id="die-roll-2"></span></h3>
-      <p>Round Total: <span id="round-total-2"></span></p>
-      <p>Total Score: <span id="total-score-2"></span></p>
-    </div>
+  <div class="image">
+  
   </div>
-</div>
+  <div class="container">
+    <br>
+    <div class="jumbotron">
+      
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bB6tyNLzVmp3eNUOQE-A2kC5cp1jA5kkaG5_8e_9gMWppnju" alt="pig header" class="header-pic"/>
+      <h1><em>Pig Dice Game</em></h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bB6tyNLzVmp3eNUOQE-A2kC5cp1jA5kkaG5_8e_9gMWppnju" alt="pig header" class="header-pic"/>
+      
+      <div class="form-style-3">
+          <form id="player-name-form">
+            <fieldset><legend>Start New Game</legend>
+              
+            <label for="field1"><span>Player 1</span> <input type="text" id="player-1" class="input-field" name="field1" value="" /></label>
+            <br>
+            <br>
+            <label for="field2"><span>Player 2</span> <input type="text" id="player-2" class="input-field" name="field2" value="" /></label>
+            <br>
+            <br>
+            <input type="submit" value="Start game" /> 
+            <br>
+
+            </fieldset>
+          </form>
+        </div>
+    </div>
+    <br>
+    
+
+  </div>
+
+
 
 
 
