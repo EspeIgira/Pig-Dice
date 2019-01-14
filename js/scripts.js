@@ -30,3 +30,41 @@ Player.prototype.rollDie = function(){
   return diceArray;
 };
 
+
+Player.prototype.stop = function() {
+  this.score += this.turn
+  this.turn = 0;
+
+}
+
+Player.prototype.newTurn = function() {
+  this.turn = 0;
+};
+
+Player.prototype.scoreCheck = function() {
+  if(this.score >= 100){
+    return "Win";
+  };
+};
+
+Player.prototype.newGame = function(){
+  this.turn = 0;
+  this.score = 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
