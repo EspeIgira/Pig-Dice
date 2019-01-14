@@ -1,46 +1,4 @@
-/*.jumbotron{
-  background-color:black;
-  color:lightblue;
-}
-html{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bB6tyNLzVmp3eNUOQE-A2kC5cp1jA5kkaG5_8e_9gMWppnju);
-  background-repeat:no-repeat;
-}
-.buttonstart{
-color:lightblue;
-}
 
-.image{
-  text-align: center;
-}
-legend{
-  text-align: center;
-  background-color:lightblue;
-  
-}
-#player-name-form{
-  margin-left:600px;
-  margin-bottom:200px;
-  margin-top:-600px;
-}
-.rows{
-  display:none;
-}
-p{
-  color:lightblue;
-}
-li{
-  color:lightblue;
-}
-*/
-.Rules{
-  margin-left:800px;
-  margin-top:-200px;
-}
-.points{
-  margin-left:800px;
-  margin-top:-200px;
-}
 .player-1-div {
   border: 20px solid transparent;
   border-radius: 10px;
