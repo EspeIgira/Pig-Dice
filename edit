@@ -1,0 +1,88 @@
+ <div class="image">
+  
+  </div>
+  <div class="container">
+    <br>
+    <div class="jumbotron">
+      
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bB6tyNLzVmp3eNUOQE-A2kC5cp1jA5kkaG5_8e_9gMWppnju" alt="pig header" class="header-pic"/>
+      <h1><em>Pig Dice Game</em></h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bB6tyNLzVmp3eNUOQE-A2kC5cp1jA5kkaG5_8e_9gMWppnju" alt="pig header" class="header-pic"/>
+      <br><br>
+      <p><small>Pig is a simple dice game which in its basic form is playable<br> with just a single die. You win by being the first player to score<br> 100 or more points.
+          To play you'll need 2 to 10 players, one 6-sided<br> dice, and a pencil and some paper for keeping score.</small></p>
+
+      <div class="form-style-3">
+          <form id="player-name-form">
+           
+            <fieldset><legend>Start New Game</legend>
+              
+            <label for="field1"><span>Player 1</span> <input type="text" id="player-1" class="input-field" name="field1" value="" /></label>
+            <br>
+            <br>
+            <label for="field2"><span>Player 2</span> <input type="text" id="player-2" class="input-field" name="field2" value="" /></label>
+            <br>
+            <br>
+            <div class="buttonstart">
+            <input type="submit" value="Start game" /> 
+            <br>
+            </div>
+            </fieldset><br><br>
+            <p><small>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</small> </p>
+               <br>
+                <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+                <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+                <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+            <br>
+            <p><small>The first player to score 100 or more points wins.</small></p>
+           
+          </form>
+        </div>
+    </div>
+    <br>
+    <div class="rows">
+    <div class="row first-row" >
+      <div class="col-sm-4 player-1-div">
+        <h2 class="player-1-name"></h2>
+        <h4>TURN SCORE:<span class="player-1-score"></span></h4>
+        <h4>TOTAL SCORE:<span class="player-1-total-score"></span></h4>
+        <br><br>
+      </div>
+      <div class="player-1-dice">
+        <h4>ROLL:<span class="player-1-roll"></span></h4>
+      </div>
+   
+      <div class="col-sm-4"><br><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bB6tyNLzVmp3eNUOQE-A2kC5cp1jA5kkaG5_8e_9gMWppnju" alt="pig header" class="header-pic"/>
+      </div>
+      <div class="col-sm-4 player-2-div">
+        <h2 class="player-2-name"></h2>
+        <h4>TURN SCORE:<span class="player-2-score"></span></h4>
+        <h4>TOTAL SCORE:<span class="player-2-total-score"></span></h4>
+        <br><br>
+        <div class="player-2-dice">
+          <h4>ROLL:<span class="player-2-roll"></span></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" >
+      <div class="col-sm-4">
+        <div class="buttons-1">
+          <button class="roll-1 btn" type="submit">Roll Die</button>
+          <button class="stop-1 btn" type="submit">Stop Turn</button>
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+      <br><br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bB6tyNLzVmp3eNUOQE-A2kC5cp1jA5kkaG5_8e_9gMWppnju" alt="pig header" class="header-pic"/>
+      </div>
+      <div class="col-sm-4">
+        <div class="buttons-2">
+         <button class="roll-2 btn" type="submit">Roll Die</button>
+         <button class="stop-2 btn" type="submit">Stop Turn</button>
+        </div> 
+    </div>
+  </div>
+</div>
+</div>
